@@ -1,0 +1,8 @@
+apt update -y
+apt-get install git
+git init
+git clone
+vim new.create
+git add new.create
+git commit -m "add this in new file add this comment"
+git push origin main --set-upstream
